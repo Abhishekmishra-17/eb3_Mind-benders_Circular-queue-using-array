@@ -7,9 +7,7 @@
 <b> Experiment|     <b> Implementation of Circular Queue using array.
 
 <h5> About the Lab (Objective) : </h5>
-
-The main objective of this data structure lab is to implement the Circular Queue using array. In this lab students are able to understand the concepts Circular Queue and also understand the practical implementation of Circular Queue using array.
-
+The objective of this lab is to teach students various data structures and to explain them algorithms for performing various operations on these data structures. This lab complements the data structures course. Students will gain practical knowledge by writing and executing algorithm by using various data structures such as arrays, linked lists, stacks, queues, trees, graphs, hash tables and search trees.
 <h5> About the Experiment : </h5>
 Circular queue is a linear data structure. It follows FIFO (First In First Out) principle. In circular queue the last node is connected back to the first node to make a circle.  Elements are added at the rear end and the elements are deleted at front end of the queue. The queue is considered as a circular queue when the positions 0 and MAX-1 are adjacent. Any position before front is also after rear.
 <h5> Target Audience : </h5>
@@ -32,11 +30,11 @@ AKTU
 
 #### Mentor Details
 
-<b>Mentored by | <b> Er. Sheetal Singh
+<b>Mentored by | <b> Dr Ramesh Sharma
 :--|:--|
-<b> Institute | <b> IIT KANPUR
-<b> Email id|     <b> sheetals@iitk.ac.in
-<b> Department | Sr. Project Associate (Computer Science) 
+<b> Institute | <b> Feroze Gandhi Institute of Engineering and Technology
+<b> Email id|     <b> sharmarameshfgiet@gmail.com 
+<b> Department | Department of Applied science  
 
 #### Contributors List
 
