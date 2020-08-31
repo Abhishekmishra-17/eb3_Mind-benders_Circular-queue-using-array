@@ -88,29 +88,51 @@
 /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-  const myQuestions = [
+ const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "What is Circular Queue?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "FIFO List",                  ///// Write the option 1 inside double quotes
+        b: "LIFO List",                  ///// Write the option 2 inside double quotes
+        c: "Linear List",                  ///// Write the option 3 inside double quotes
+        d: " None of these"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "This is question 2?",  ///// Write the question inside double quotes
+     question: "Full Form of FIFO:-",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "First Input First Output",                  ///// Write the option 1 inside double quotes
+        b: "First In First Out",                  ///// Write the option 2 inside double quotes
+        c: "Fill Input Final Output",                  ///// Write the option 3 inside double quotes
+        d: "Final Input Final Output"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
+     {
+      question: " Circular Queue is not represented by-",
+      answers: {
+        a: "Array",
+        b: "Linked-List",
+        c: "Stack",
+        d: "None of these"
+      },
+      correctAnswer: "c"
+    },
+
+     {
+      question: "What is an array?",
+      answers: {
+        a: "Collection of elements with same data type.",
+        b: "Collection of elements with different data type.",
+        c: "Collection of key elements.",
+        d: "Collection of graphs."
+      },
+      correctAnswer: "a"
+    },
+
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
