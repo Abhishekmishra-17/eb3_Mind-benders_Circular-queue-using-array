@@ -51,12 +51,10 @@ In this experiment user will able to learn the array implementation of  circular
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchartcq.JPG"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
 <br>
 
 ### 4. Mindmap:
 <img src="mindmap/mindmapcqa.JPG"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
  <br>
 
 
