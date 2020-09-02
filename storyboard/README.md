@@ -59,5 +59,7 @@ In this experiment user will able to learn the array implementation of  circular
 
 
 ### 5. Storyboard :
+<img scr="images/ca1.JPG"/><img scr="images/ca2.JPG"/>
+
 Storyboard: <a href="storyboard/ca.gif"> [here]</a>
 
