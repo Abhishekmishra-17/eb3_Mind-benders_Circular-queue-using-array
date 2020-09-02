@@ -3,9 +3,9 @@
 Experiment 1: Implementation of Circular Queue using array.
 
 ### 1. Story Outline:
-
+The experiment "Implementation of Circular Queue using array" is implementation of concept of circular queue. In this experiment user will be able to understand the working concept of circular queue with the help of array. In simulator of this experiment user will see the step by step animation which is real time animation, by which he/she can visualize the working concepts. After performing this experiment user will able to explain the concepts (algorithm and working method) of Circular Queue.<br>
 In this experiment user will click on "run" button to run the simulator as well as algorithm. Once the global variable declared by the simulator which is shown by animation then it will ask for array size. The array size is given by user.<br>
-Once the array size is inserted an array will make in animation part. User will free to choose any operation like deQueue enQueue e.t.c. whatever operation is choosing by user the working animation of that operation will show in animation part and output will shown in console part.
+Once the array size is inserted an array will make in animation part. User will free to choose any operation like deQueue, enQueue e.t.c. whatever operation is choosing by user the working animation of that operation will show in animation part and output will shown in console part.
 
 ### 2. Story:
 
@@ -59,5 +59,5 @@ In this experiment user will able to learn the array implementation of  circular
 
 
 ### 5. Storyboard :
-Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
+Storyboard: <a href="storyboard/ca.gif"> [here]</a>
 
