@@ -2,41 +2,91 @@
 
 A circular queue is a linear data structure in which the operations are performed based on FIFO (First In First Out) principle and the last position is connected back to the first position to make a circle.
 
-Graphical representation of a circular queue is as follows...<br>
-
-<img scr="images/CircularQ.png"/>
-
 ## Implementation of Circular Queue<br>
 To implement a circular queue data structure using an array, we first perform the following steps before we implement actual operations.
 
-Step 1 - Include all the header files which are used in the program and define a constant 'SIZE' with specific value.<br>
-Step 2 - Declare all user defined functions used in circular queue implementation.<br>
-Step 3 - Create a one dimensional array with above defined SIZE (int cQueue[SIZE])<br>
-Step 4 - Define two integer variables 'front' and 'rear' and initialize both with '-1'. (int front = -1, rear = -1)<br>
-Step 5 - Implement main method by displaying menu of operations list and make suitable function calls to perform operation selected by the user on circular queue.<br>
-
+     Step 1: Start
+     Step 2: Declare global variable array_size, front and rear
+     Step 3: Display enter array size
+     Step 4: Read variable array_size
+     Step 5: Declare global array queue of size array_size
+     Step 6: Initialize variable
+                      front <- -1
+                      rear <- -1
+     Step 7: End
+     
 <b>enQueue(value) -</b> Inserting value into the Circular Queue<br>
 In a circular queue, enQueue() is a function which is used to insert an element into the circular queue. In a circular queue, the new element is always inserted at rear position. The enQueue() function takes one integer value as parameter and inserts that value into the circular queue. We can use the following steps to insert an element into the circular queue...
 
-Step 1 - Check whether queue is FULL. ((rear == SIZE-1 && front == 0) || (front == rear+1))<br>
-Step 2 - If it is FULL, then display "Queue is FULL!!! Insertion is not possible!!!" and terminate the function.<br>
-Step 3 - If it is NOT FULL, then check rear == SIZE - 1 && front != 0 if it is TRUE, then set rear = -1.<br>
-Step 4 - Increment rear value by one (rear++), set queue[rear] = value and check 'front == -1' if it is TRUE, then set front = 0.<br>
-
+     Step 1: Start
+     Step 2: If ( rear + 1 ) modulas array_size  equals front
+                      Display Queue is full
+                   Else
+                      Declare variable data
+                      Display enter value
+                      Read variable data
+                      Initialize variable
+                           rear <- ( rear + 1 ) modulas array_size
+                           queue[rear] <- data
+                      If front equals -1
+                           front <- 0
+     Step 3: End
+     
 <b>deQueue() -</b> Deleting a value from the Circular Queue<br>
 In a circular queue, deQueue() is a function used to delete an element from the circular queue. In a circular queue, the element is always deleted from front position. The deQueue() function doesn't take any value as a parameter. We can use the following steps to delete an element from the circular queue...
 
-Step 1 - Check whether queue is EMPTY. (front == -1 && rear == -1)<br>
-Step 2 - If it is EMPTY, then display "Queue is EMPTY!!! Deletion is not possible!!!" and terminate the function.<br>
-Step 3 - If it is NOT EMPTY, then display queue[front] as deleted element and increment the front value by one (front ++). Then check whether front == SIZE, if it is TRUE, then set front = 0. Then check whether both front - 1 and rear are equal (front -1 == rear), if it TRUE, then set both front and rear to '-1' (front = rear = -1).<br>
-
+     Step 1: Start
+     Step 2: If front equals -1
+                      Display Queue is empty
+                   Else
+                      If front equals rear
+                           Initialize variable
+                                  queue[front] <- free
+                                  front <- -1
+                                  rear <- -1
+                      Else
+                           Initialize variable
+                                  queue[front] <- free
+                                  front <- ( fornt + 1 ) modulas array_size
+     Step 3: End
+     
 <b>display() -</b> Displays the elements of a Circular Queue<br>
 We can use the following steps to display the elements of a circular queue...
 
-Step 1 - Check whether queue is EMPTY. (front == -1)<br>
-Step 2 - If it is EMPTY, then display "Queue is EMPTY!!!" and terminate the function.<br>
-Step 3 - If it is NOT EMPTY, then define an integer variable 'i' and set 'i = front'.<br>
-Step 4 - Check whether 'front <= rear', if it is TRUE, then display 'queue[i]' value and increment 'i' value by one (i++). Repeat the same until 'i <= rear' becomes FALSE.<br>
-Step 5 - If 'front <= rear' is FALSE, then display 'queue[i]' value and increment 'i' value by one (i++). Repeat the same until'i <= SIZE - 1' becomes FALSE.<br>
-Step 6 - Set i to 0.<br>
-Step 7 - Again display 'cQueue[i]' value and increment i value by one (i++). Repeat the same until 'i <= rear' becomes FALSE.<br>
+     Step 1: Start
+     Step 2: If front not equals -1
+                      2.1: Declare variable i
+                      2.2: Initialize variable
+                                  i <- front
+                      2.3: If rear greater then or equla to front
+                                  Repeat the step until i less then or equals to rear
+                                       Display value at i is queue[i]
+                                       i <- i + 1
+                              Else
+                                  Repeat the step until i less then array_size
+                                       Display value at i is queue[i]
+                                       i <- i + 1
+                                  Initialize variable
+                                       i <- 0
+                                  Repeat the step until i less then equals to rear
+                                       Display value at i is queue[i]
+                                       i <- i + 1
+                   Else
+                      Display Queue is empty
+     Step 3: End
+<b>isFull() -</b>Chec whether queue is full or not<br>
+
+     Step 1: Start
+     Step 2: If ( rear + 1 ) modulas array_size  equals front
+                      Display Queue is full
+                   Else
+                      Display Queue is not full
+     Step 3: End
+<b>isEmpty() -</b>Chec whether queue is Empty or not<br>
+
+     Step 1: Start
+     Step 2: If front equals -1
+                      Display Queue is empty
+                   Else
+                      Display Queue is not empty
+     Step 3: End
