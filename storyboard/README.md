@@ -34,8 +34,41 @@ The main objectives of user is that the user will undertand the working concept 
 
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+<b>1.Learning Objective: Remember</b><br>
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+<b>Question1:</b> Cicular queue is a ?<br>
+<b>A. FIFO List</b><br>
+B. LIFO list<br>
+C. Ordered Array<br>
+D. Linear Tree<br>
+
+<b>Question2:</b> What is Time complexity of deQueue operation in Cicular Queue?<br>
+A. O(n-1)<br>
+<b>B. O(n)</b><br>
+C. O(1)<br>
+D. NOne of the above<br>
+
+<b>2.Learning Objective: Understand</b><br><br>
+
+<b>Question1:</b> What if (rear + 1) % Array size = front<br>
+<b>A. Queue is full</b><br>
+B. Queue is empty<br>
+C. Both A and B<br>
+D. None of these<br>
+
+<b>Question2:</b> What if rear = front && != -1<br>
+A. Queue is empty<br>
+B. Queue is full<br>
+<b>C. Queue has only one elelment</b><br>
+D. None of above<br>
+
+<b>3.Learning Objective: Apply</b><br><br>
+
+<b>Question: </b>What is Cicular Queue empty condition?<br>
+A. Rear equals to front<br>
+<b>B. Front equals to -1</b><br>
+C. Front to Array Size-1<br>
+D. Rear equals to Array Size-1<br>
 
 ##### 2.5 Allow pitfalls:
 1. While running of one operation if user will click on "stop" button then all operation and then he will click on "run" button, then all operation will start from initial stage.<br>
