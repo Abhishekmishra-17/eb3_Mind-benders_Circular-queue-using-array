@@ -56,7 +56,7 @@ B. Queue is empty<br>
 C. Both A and B<br>
 D. None of these<br>
 
-<b>Question2:</b> What if rear = front && != -1<br>
+<b>Question2:</b> What if rear = front != -1<br>
 A. Queue is empty<br>
 B. Queue is full<br>
 <b>C. Queue has only one elelment</b><br>
