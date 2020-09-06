@@ -1201,7 +1201,7 @@ let correct = 0;
                     correct = 0;
                     break;
                 case 3:
-                    question.textContent = 'Q. What if rear = front';
+                    question.textContent = 'Q. What if rear = front != -1';
                     option_[0].childNodes[0].textContent = 'Queue is empty.';
                     option_[1].childNodes[0].textContent = 'Queue is full.';
                     option_[2].childNodes[0].textContent = 'Queue has only one element.';
