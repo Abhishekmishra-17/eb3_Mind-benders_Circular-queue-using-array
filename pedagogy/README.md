@@ -25,7 +25,7 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-3.| User will be able to: <br> Describe the concept <br> of Circular Queue and array. | Remember| Describe
+3.| User will be able to: <br> Recall the concept <br> of Circular Queue and array. | Remember| Recall
 2.| User will be able to: <br> Describe the algorithm of experiment. | Understand | Describe
 3.| User will be able to: <br>Experiment with the concept of array <br>in implementation of Circular Queue . | Apply | Experiment with
 
@@ -55,9 +55,9 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|  Decribe the concept <br> of Circular Queue and array. | students will able to<br> perform the basic operation in simulator. | What is basic working principle of Circular Queue <br> A. LIFO<br><b>B. FIFO <br></b> C. LIFO and FIFO both<br> D. None of these 
-2.| Describe  the algorithm of Circular experiment. | students are able to see the working concept of algorithm<br> according to operation, which <br>has to be perform in simulator | Which is not basic operation of Circular Queue <br> A. enQueue <br> B. deQueue <br> <b> C. isNull <br></b> D. IsEmpty
-3.| Experiment with the concept of array <br>in implementation of Circular Queue. | students are select the operation<br>and see the performance of that operation. | What is an array <br> <b> A. Data Structure</b><br> B. Data Type <br> C.Fuction <br> D. None of these
+1.|  Recall the concept <br> of Circular Queue and array. | students will able to<br> perform the basic operation in simulator. | Question1: Cicular queue is a ? <br><b>A. FIFO List <br></b>B. LIFO list<br>C. Ordered Array <br> D. Linear Tree <br>Question2: What is Time complexity of deQueue operation in Cicular Queue?<br>A.O(n-1)<br><b>B.O(n)</b><br>C.O(1)<br>D. NOne of the above
+2.| Describe  the algorithm of Circular Queue experiment. | students are able to see the working concept of algorithm<br> according to operation, which <br>has to be perform in simulator | Question1: What if (rear + 1) % Array size = front <br><b>A. Queue is full <br></b>B. Queue is empty <br>C. Both A and B <br>D. None of these <br> Question2: What if rear = front && != -1<br> A.Queue is empty<br>B.Queue is full<br><b>C.Queue has only one elelment</B><br>D. None of above
+3.| Experiment with the concept of array <br>in implementation of Circular Queue. | students are select the operation<br>and see the performance of that operation. | Question: What is Cicular Queue empty condition?<br>A. Rear equals to front<br><b>B. Front equals to -1</b><br> C. Front to Array Size-1 <br> D. Rear equals to Array Size-1
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
