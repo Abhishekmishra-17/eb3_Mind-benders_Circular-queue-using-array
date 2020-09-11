@@ -73,4 +73,4 @@ Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
 1.|  User is click on<br>"Run" button  |  Simulator will start and<br>it declared the global variables | To initialize the simulator and experiment.
 2.|  User is provide some<br>information regarding the<br>experiment | Simulator takes the imput from<br>user and store it in initailized array |To initialize the array<br> and to make user interaction .
-3.|  User will able to select the <br>basic operation,<br>which has to be perform in experiment | Simulator show the algorithm<br>pattern and show the animation part<br>of selected operation | For describe the concepts and operation involve in this experiment.
+3.|  User will able to select the <br>basic operation,<br>which has to be perform in experiment | Simulator show the algorithm<br>pattern and show the animation part<br>of selected operation | For describe the concepts and operation involve in this experiment.\
