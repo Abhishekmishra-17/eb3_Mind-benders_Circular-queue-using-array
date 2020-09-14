@@ -75,7 +75,7 @@ D. Rear equals to Array Size-1<br>
 2. While proper answer is not given by user pop-up will shown, but when the answer is correct then pop is remove automatically.On wrong answer the color of select button become red.<br>
 
 ##### 2.6 Conclusion:
-In this experiment user will able to learn the array implementation of  circular queue with their working animation, which is plus point of this simulator. After completion of this experiment user will be able to get the concept of Queue, enQueue, deQueue and IsFull, Is empty condition. Task assessment questions will improve the knowledge of known concepts, which included in last of the simulator session.
+In this experiment user will able to learn the array implementation of circular queue with their working animations, which is plus point of this simulator. After completion of this experiment user will be able to explain the concept of Queue and thier operations like "enQueue", "deQueue" and "IsFull", "Isempty" condition. Task assessment questions will improve the knowledge of working concepts, which included in betweeen of the simulator session.
 
 ##### 2.7 Equations/formulas: NA
 
