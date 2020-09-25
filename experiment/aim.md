@@ -1,2 +1,1 @@
-### Aim:
-Implementation of Circular Queue using array.
+### The aim is to implement the Circular Queue using array.
