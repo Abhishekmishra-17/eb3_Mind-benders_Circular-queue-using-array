@@ -1269,12 +1269,28 @@ document.querySelector('.simulater').addEventListener('click', function(){
        });
 
 
-
-
-
-
-
-
-
 }
 window.addEventListener('load', main);
+
+function resolution(){
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    var wRation = 1366;
+    var hRatio = 625;
+    
+    var elmMain = document.querySelector('main');
+    var elmBody = document.querySelector('body');
+    
+    if(width < wRation){
+        var calc = ((elmBody.offsetWidth * 100) / wRation) / 100;
+        var calcMargin = (wRation -  elmBody.offsetWidth) / 2;
+        elmMain.style.transform = 'scale(' + calc + ')';
+        elmMain.style.marginLeft = '-' + calcMargin + 'px';
+    }else{
+         elmMain.style.transform = 'scale(1)';
+         elmMain.style.marginLeft = (width - 1366) / 2 + 'px';
+    }
+   
+}
+resolution();
+window.onresize = resolution;
