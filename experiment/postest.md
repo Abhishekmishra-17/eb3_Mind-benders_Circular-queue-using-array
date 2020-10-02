@@ -1,6 +1,7 @@
-## Post test <br>
+##  Post test 
+
 Q 1. deQueue() is call only when:-<br>
-<b>a. new element is deleted.<br></b>
+<b>a. new element is deleted.</b><br>
 b. an element is inserted.<br>
 c. we check the state of queue<br>
 d. None of the options<br>
@@ -20,5 +21,5 @@ d. None of these<br>
 Q 4. What is the size range (min,max) of array in simulator?<br>
 <b>a. [5,9]</b><br>
 b. (6,9] <br>
-c. (4,10)<br>
+c. (4,11)<br>
 d. [5,9)<br>
